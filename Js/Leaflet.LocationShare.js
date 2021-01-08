@@ -8,14 +8,14 @@ LS.Receive = {}
 LS.Receive.Marker = {}
 LS.Receive.Popup = L.popup()
 var sendIcon = L.icon({
-  iconUrl: "https://github.com/Orisus/Snacktimeccs/blob/gh-pages/Js/dist/images/bicycle-rider.png",
+  iconUrl: "https://raw.githubusercontent.com/Orisus/Snacktimeccs/gh-pages/Js/dist/images/bicycle-rider.png",
   iconSize:     [50, 50], // size of the icon
   iconAnchor:   [25, 50], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
 })
 
 receiveIcon = L.icon({
-  iconUrl: "https://github.com/Orisus/Snacktimeccs/blob/gh-pages/Js/dist/images/LOGO.SNACK.png",
+  iconUrl: "https://raw.githubusercontent.com/Orisus/Snacktimeccs/gh-pages/Js/dist/images/LOGO.SNACK.png",
   iconSize:     [50, 50], // size of the icon
   iconAnchor:   [25, 50], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
