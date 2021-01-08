@@ -3,7 +3,7 @@ L.LocShare = {}
 var LS = L.LocShare
 LS.Send = {}
 LS.Send.Marker = {}
-LS.Send.Popup = L.popup().setContent('<div> <p>Por favor en el recuadro indique la siguiente información:<br></br>Direccion Exacta<br></br>Quien recibe<br></br>Telefono<br></br>Quien Envia<br></br>Telefono<br></br><textarea name="textarea" id="area" rows="10" cols="40" style="border-color:#a7a7a7;border:solid;border-width:2px;border-radius:5px" size="30" onkeyup="L.LocShare.Send.UpdateMessage( this )"></textarea></p></div><div style="height:35px;"><button style="border-style:solid;border-radius:5px;border-color:#3d94f6;float:right;color:white;background-color:#3d94f6;height:35px;font-size:15px;line-height:3px;margin:5px;" onclick="copyPrompt()">Copiar Vinculo</button></div></div>')
+LS.Send.Popup = L.popup().setContent('<div> <p>Por favor en el recuadro indique la siguiente información:<br></br>Direccion Exacta:<br></br>Quien recibe:<br></br>Telefono:<br></br>Quien Envia:<br></br>Telefono:<br></br><textarea name="textarea" id="area" rows="10" cols="40" style="border-color:#a7a7a7;border:solid;border-width:2px;border-radius:5px" size="30" onkeyup="L.LocShare.Send.UpdateMessage( this )"></textarea></p></div><div style="height:35px;"><button style="border-style:solid;border-radius:5px;border-color:#3d94f6;float:right;color:white;background-color:#3d94f6;height:35px;font-size:15px;line-height:3px;margin:5px;" onclick="copyPrompt()">Copiar Vinculo</button></div></div>')
 LS.Receive = {}
 LS.Receive.Marker = {}
 LS.Receive.Popup = L.popup()
